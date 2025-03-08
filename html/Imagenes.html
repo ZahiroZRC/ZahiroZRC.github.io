@@ -1,0 +1,113 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <title>Imagenes en HTML</title>
+        <link rel="stylesheet" href="/Roberto-Salas/CSS/style.css" type="text/css">
+        <style>
+            section{
+                text-align: center
+            }
+            img{
+                width: 25%;
+                display: inline-block;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            p,h2{
+                text-align: justify;
+            }
+            #img_gray{
+                filter: grayscale(100%);
+            }
+            #img_brillo{
+                filter: brightness(170%);
+            }
+            #img_contraste{
+                filter: contrast(150%)
+            }
+            #img_invertido{
+                filter: invert(100%)
+            }
+            #img_opacidad{
+                filter: opacity(50%)
+            }
+            #img_saturacion{
+                filter: saturate(190%)
+            }
+            #img_sepia{
+                filter: sepia(80%)
+            }
+            #img_blur{
+                filter: blur(1px)
+            }
+            #img_huerotate{
+                filter: hue-rotate(45deg)
+            }
+            #img_sombras{
+                filter: drop-shadow(10px 10px 10px grey);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Imagenes en HTML</h1>
+        </header>
+        <nav>
+            <a href="/Roberto-Salas/index.html"> <img class="inicio" src="/Roberto-Salas/images/inicio.png" alt= inicio></a>
+            <ul>
+                  <li><a href="Listas.html">Listas</a></li>
+                <li><a href="Encabezados.html">Formatos</a></li>
+                <li><a href="Enlaces.html">Enlaces</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="Imagenes.html">Imagenes</a></li>
+                <li><a href="Audio.html">Audios</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="Formularios.html">Formularios</a></li>
+            </ul>
+        </nav> 
+        <main>
+            <section>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie porttitor maximus. Sed dapibus augue quis magna congue venenatis. Maecenas ac dui nisl. Pellentesque porttitor elit quis mauris semper imperdiet. Morbi ut interdum turpis. Integer malesuada eget velit viverra vehicula.</p>
+                <img  class="animate__animated animate__shakeX aniamte__delay-3s animate__repeat-3" src="/Roberto-Salas/images/1.jpg" alt="Pareja de amor">
+                <img id="imagen_animada" src="/Roberto-Salas/images/2.gif" alt="sol">
+            </section>
+            <section>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie porttitor maximus. Sed dapibus augue quis magna congue venenatis. Maecenas ac dui nisl. Pellentesque porttitor elit quis mauris semper imperdiet. Morbi ut interdum turpis. Integer malesuada eget velit viverra vehicula.</p>
+                <a href="https://etn.com.mx/blog/celebracion-san-valentin-mexico/"> <img class="animate__animated animate__heartBeat animate__delay__delay-5s animate__infinite" id="imagen_ico" src="/Roberto-Salas/images/3.png" alt="corazon" target="new"></a>
+            </section>
+            <section>
+                <h2>Titulo</h2>
+                <p> <img class="img_flotantes" id="img_left" src="/Roberto-Salas/images/4.jpg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie porttitor maximus. Sed dapibus augue quis magna congue venenatis. Maecenas ac dui nisl. Pellentesque porttitor elit quis mauris semper imperdiet. Morbi ut interdum turpis. Integer malesuada eget velit viverra vehicula.</p>
+                <p> <img class="img_flotantes" id="img_right" src="/Roberto-Salas/images/5.jpg"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie porttitor maximus. Sed dapibus augue quis magna congue venenatis. Maecenas ac dui nisl. Pellentesque porttitor elit quis mauris semper imperdiet. Morbi ut interdum turpis. Integer malesuada eget velit viverra vehicula.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie porttitor maximus. Sed dapibus augue quis magna congue venenatis. Maecenas ac dui nisl. Pellentesque porttitor elit quis mauris semper imperdiet. Morbi ut interdum turpis. Integer malesuada eget velit viverra vehicula.</p>
+            </section>
+            <section id="fondo_imagen" src="/Roberto-Salas/images/5.jpg">
+                <h2>Imagenes de fondo o background</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aliquam ea quia veritatis tenetur, et, numquam odio labore provident eos deserunt in nostrum explicabo incidunt culpa. Veniam obcaecati voluptatibus repellat alias, suscipit architecto nihil labore omnis harum sunt quidem dolor quaerat similique ullam molestiae sequi perspiciatis sint nesciunt hic! Dolorum quos placeat aspernatur, distinctio dolor repudiandae. Possimus veniam reiciendis aut necessitatibus neque doloremque, voluptas sit sed, adipisci odio ex nemo magnam vero dolorem iusto corporis! Asperiores pariatur officiis, quidem atque, dignissimos architecto saepe labore nostrum beatae, suscipit dolorem. Fugiat et corporis sequi eaque, odit blanditiis inventore quidem quo magnam voluptas.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti debitis reprehenderit nesciunt excepturi odio quisquam et sed quo assumenda beatae saepe placeat, incidunt ipsum tenetur cum at porro nemo iure ipsam consequuntur, dolor tempore veniam esse. Commodi est eaque explicabo animi, illum optio esse velit dolor hic qui amet cumque quia. Ut in blanditiis rem, nemo, magni quisquam aliquid tempora.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quasi placeat eveniet perspiciatis molestiae sed voluptas blanditiis, perferendis architecto veritatis expedita tempora itaque distinctio assumenda dolores, tenetur dolor cum ipsa impedit minima sequi at, voluptatibus deserunt temporibus. Natus, optio facere!</p>
+            </section>
+            <section>
+                <h2>Imagenes con filtro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sapiente est similique, quibusdam iure qui. Tempora distinctio explicabo eligendi nemo ipsa, fugit sit earum laudantium sint voluptate consequatur possimus illo, commodi iste consectetur, dignissimos deserunt neque, at fuga perferendis sequi reprehenderit magnam. Inventore adipisci dolorum fugit, in nostrum, quisquam modi.</p>
+                <img src="/Roberto-Salas/images/8.jpg">
+                <img id="img_gray" src="/Roberto-Salas/images/8.jpg">
+                <img id="img_brillo" src="/Roberto-Salas/images/8.jpg">
+                <img id="img_contraste" src="/Roberto-Salas/images/8.jpg">
+                <img id="img_invertido" src="/Roberto-Salas/images/8.jpg">
+                <img id="img_opacidad" src="/Roberto-Salas/images/8.jpg">
+                <img id="img_saturacion" src="/Roberto-Salas/images/8.jpg">
+                <img id="img_sepia" src="/Roberto-Salas/images/8.jpg">
+                <img id="img_blur" src="/Roberto-Salas/images/8.jpg">
+                <img id="img_huerotate" src="/Roberto-Salas/images/8.jpg">
+                <img id="img_sombras" src="/Roberto-Salas/images/8.jpg">
+                <img id="" src="/Roberto-Salas/images/8.jpg">
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Roberto Carlos Salas</h6>
+        </footer>
+    </body>
+</html>

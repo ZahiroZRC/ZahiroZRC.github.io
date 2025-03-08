@@ -1,0 +1,231 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="/Roberto-Salas/CSS/style.css" type="text/css">
+        <title>Tablas en HTML</title>
+        <style type="text/css">
+          
+            
+            }
+            h2{
+                margin-bottom: 20px;
+            }
+            nav ul{
+                margin-bottom: 20px;
+            }
+            nav ul{
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            nav ul li{
+                width: 8%;
+                list-style-type: none;
+                background-color: #EFE9D5;
+                padding: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+                display: inline-block;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            nav ul li a{
+                text-decoration: none;
+            }
+            table{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 30px;
+                border-width: 5px;
+               /* border-style: solid;
+                border-color: white;*/
+                border-collapse: collapse;
+            }
+            table td, table th{
+                border-width: 3px;
+                border-style: solid;
+                border-color: #EFE9D5;
+            }
+            table th{
+                background-color: #497D74;
+                color: #EFE9D5;
+                padding: 5px;
+                text-align: center;
+            }
+            table td{
+                background-color: #71BBB2;
+                color: #27445D;
+                padding: 10px;
+            }
+            #tab_libros th{
+                background-color: #71BBB2;
+                color: #497D74;
+            }
+            #tab_libros td{
+                background-color: #497D74;
+                color: #27445D;
+            }
+            #tab_libros td, #tab_libros th{
+               /* border-width: 5px;
+                border-style: solid;*/
+                border-color: #EFE9D5;
+            }
+        </style>
+    </head>
+    <body>
+    <header>
+        <h1>TABLAS</h1>
+    </header>
+    <nav>
+         <a href="/Roberto-Salas/index.html"> <img class="inicio" src="/Roberto-Salas/images/inicio.png" alt= inicio></a>
+         <ul>
+                  <li><a href="Listas.html">Listas</a></li>
+                <li><a href="Encabezados.html">Formatos</a></li>
+                <li><a href="Enlaces.html">Enlaces</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="Imagenes.html">Imagenes</a></li>
+                <li><a href="Audio.html">Audios</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="Formularios.html">Formularios</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Tabla simple</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor et dui mollis tincidunt. Mauris sagittis venenatis augue in semper. Sed congue ante arcu, mattis tempus erat congue vel. Nunc sit amet arcu dignissim, varius lorem a, malesuada est. In.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Matricula</th>
+                        <th>Nombre</th>
+                        <th>Apellido paterno</th>
+                        <th>Apellido materno</th>
+                        <th>Celular</th>
+                        <th>Colegio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>202178956</td>
+                        <td>Jorge</td>
+                        <td>Contreras</td>
+                        <td>Castillo</td>
+                        <td>2225698532</td>
+                        <td>Urbanismo Ambiental</td>
+                    </tr>
+                    <tr>
+                        <td>202174586</td>
+                        <td>Armando</td>
+                        <td>Hernandez</td>
+                        <td>Arroyo</td>
+                        <td>2461567546</td>
+                        <td>Arquitectura</td>
+                    </tr>
+                    <tr>
+                        <td>202156987</td>
+                        <td>Ricardo</td>
+                        <td>Ordaz</td>
+                        <td>Ventura</td>
+                        <td>2761568978</td>
+                        <td>Diseno Grafico</td>
+                    </tr>
+                    <tr>
+                        <td>202154689</td>
+                        <td>Alvaro</td>
+                        <td>Andrade</td>
+                        <td>Paz</td>
+                        <td>2761004046</td>
+                        <td>Arquitectura</td>
+                    </tr>
+                    <tr>
+                        <td>202174685</td>
+                        <td>Angel</td>
+                        <td>Rodriguez</td>
+                        <td>Rodriguez</td>
+                        <td>2761088029</td>
+                        <td>Diseno Grafico</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>Tabla</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed dui quis sapien pulvinar suscipit. Duis quis porttitor mauris. Ut efficitur diam in interdum dapibus. Mauris eleifend volutpat arcu, quis mollis eros tristique non. Suspendisse sodales ut felis eu tristique. Sed commodo ullamcorper massa ut lacinia. Cras venenatis neque mi, sed imperdiet mi congue et. Etiam laoreet libero velit, a.</p>
+            <table id="tab_libros">
+                <thead>
+                    <tr>
+                        <th>Titulo</th>
+                        <th>Año</th>
+                        <th>Editorial</th>
+                        <th>Autor</th>
+                        <th>Genero</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cronicas de una muerte anunciada</td>
+                        <td></td>
+                        <td></td>
+                        <td>Gabriel Garcia Marquez</td>
+                        <td>Novela</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>La cancion de Aquiles</td>
+                        <td></td>
+                        <td>ADL</td>
+                        <td>Madelein Miller</td>
+                        <td>Novela</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>Asesino de brujas</td>
+                        <td></td>
+                        <td></td>
+                        <td>Virginia Boecker</td>
+                        <td>Novela</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>Lecciones de stoicicsmo de Marco Aurelio</td>
+                        <td></td>
+                        <td>Pinguino</td>
+                        <td>Jonh Sellars</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>Comienza el Juego</td>
+                        <td>2018</td>
+                        <td></td>
+                        <td>Ernest Cline</td>
+                        <td>Novela</td>
+                        <td></td>
+                    </tr>
+                     <tr>
+                        <td>Hush, Hush</td>
+                        <td>2018</td>
+                        <td>Pinguino</td>
+                        <td>Patrick</td>
+                        <td>Novela</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2>Tabla</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed dui quis sapien pulvinar suscipit. Duis quis porttitor mauris. Ut efficitur diam in interdum dapibus. Mauris eleifend volutpat arcu, quis mollis eros tristique non. Suspendisse sodales ut felis eu tristique. Sed commodo ullamcorper massa ut lacinia. Cras venenatis neque mi, sed imperdiet mi congue et. Etiam laoreet libero velit, a.</p>
+        </section>
+    </main>
+    <footer>
+        <h6>Elaborado por Roberto Carlos Salas</h6>
+    </footer>
+    </body>
+</html>
